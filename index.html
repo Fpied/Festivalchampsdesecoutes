@@ -3,10 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="asset/style.css">
     <title>Festival du champs des écoutes</title>
 </head>
 <body>
-    
+    <div class="Forum">
+        <header>
+            <!-- Un audio parce que j'aime bien beethoven mais il est un peu caché-->
+            <audio muted autoplay controls><source src="asset/audio/Flashmob Flash Mob - Ode an die Freude ( Ode to Joy ) Beethoven Symphony No.9 classical music.mp3"></audio>
+            <!-- Le titre de mon festival -->
+            <h1 id="Titre">Festival du champs des écoutes</h1>
+            <!-- Encore un menu de navigation-->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <!-- Le lien pour mon festival enfin ça sera le lien d'accueil-->
+                        <a class="nav__link" href="index.html">The Festival</a>
+                    </li>
+                    <li class="nav__item">
+                        <!-- La page de mes différents groupes -->
+                        <a class="nav__link" href="groupe.html">Groupes</a>
+                    </li>
+                    <li class="nav__item">
+                        <!-- Parce que la vie coute de plus en plus chère je demande à payer -->
+                        <a class="nav__link" href="billeterie.html">Billeterie</a>
+                    </li>
+                    <li class="nav__item">
+                        <!-- Ici retrouvé l'adresse du champs des écoutes avec une carte-->
+                        <a class="nav__link" href="adresse.html">Adresse</a>
+                    </li>
+                    <li class="nav__item">
+                        <!-- Ici retrouvé mon prochain formulaire de contact -->
+                        <a class="nav__link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <!-- J'essais de faire comme un blog -->
+            <section class="Post">
+                <!-- les informations essentielles du post-->
+                <div class="information">
+                    <!--La Date du Post-->
+                    <p class="date">29/04/2026</p>
+                    <!--Le titre du post-->
+                    <h2 class="Titre__Post">Festival Rock du champs des Ecoutes</h2>
+                </div>
+                <!--Le paragraphe du post-->
+                <p>Plongez au cœur d’une expérience musicale unique avec <strong>le Festival Rock du Champs des Écoutes</strong>
+                    , un événement incontournable pour tous les passionnés de rock. Pendant plusieurs jours, laissez-vous emporter 
+                    par l’énergie légendaire de groupes mythiques comme Pink Floyd, Dire Straits, Queen et The Beatles, dans un cadre 
+                    naturel exceptionnel. Entre concerts en plein air, ambiance conviviale et immersion totale dans la culture rock, 
+                    ce festival promet des moments inoubliables mêlant musique, liberté et partage. Que vous soyez amateur de classiques 
+                    intemporels ou simplement en quête d’une expérience festive hors du commun, le Champs des Écoutes est le rendez-vous à 
+                    ne pas manquer.</p>
+                    <!--L'image du Post-->
+                    <img class="image__post" src="asset/image/affichechampsdesecoute.png" alt="affiche rock and roll">
+                    <audio  src="asset/audio/Boogie Body.mp3" controls></audio>
+
+            </section>
+            <!-- Section sur Pink floyd -->
+            <section class="Post">
+                <!-- les informations essentielles du post-->
+                <div class="information">
+                    <!--La Date du Post-->
+                    <p class="date">29/04/2026</p>
+                    <!--Le titre du post-->
+                    <h2 class="Titre__Post">Concert de Pink floyd</h2>
+                </div>
+                <!--Le paragraphe du post-->
+                <p>Le 20 juin 2026 à 21h30, le Champs des Écoutes vibrera au son légendaire de <strong>Pink Floyd</strong> pour une soirée exceptionnelle sous les étoiles. Plongez dans un univers sonore et visuel unique, où les mélodies planantes, les solos mythiques et les ambiances psychédéliques du groupe prendront toute leur dimension en plein air. Entre jeux de lumières, atmosphère immersive et émotion pure, ce concert promet un voyage hors du temps pour tous les amateurs de rock. Une expérience inoubliable à ne surtout pas manquer.</p>
+                    <!--L'image du Post-->
+                    <video class="video__poster" controls poster="asset/image/pinkfloyd.png"><source src="asset/video/Pink Floyd · Another Brick In The Wall (Parts I-II-III).mp4"></video>
+
+            </section>
+            <!-- Section sur Dire Straits -->
+            <section class="Post">
+                <!-- les informations essentielles du post-->
+                <div class="information">
+                    <!--La Date du Post-->
+                    <p class="date">29/04/2026</p>
+                    <!--Le titre du post-->
+                    <h2 class="Titre__Post">Concert de Dire Straits</h2>
+                </div>
+                <!--Le paragraphe du post-->
+                <p>Le 21 juin 2026 à 21h30, à l’occasion de la Fête de la musique, le Champs des Écoutes en Vendée accueillera un concert exceptionnel dédié à Dire Straits. Dans une ambiance chaleureuse et en plein air, laissez-vous porter par les sonorités inimitables du groupe, entre riffs emblématiques et mélodies intemporelles. De Sultans of Swing à Money for Nothing, cette soirée promet un voyage au cœur du rock britannique, mêlant virtuosité, émotion et énergie. Un rendez-vous unique pour revivre la magie de Dire Straits dans un cadre naturel et convivial.</p>
+                    <!--L'image du Post-->
+                    <video class="video__poster" controls poster="asset/image/direstraits.png"><source src="asset/video/Dire Straits - Money For Nothing.mp4"></video>
+
+            </section>
+            <!--un paragraphe pour me valorisé -->
+            <p>Ceci est mon festival</p>
+        </main>
+        <!--Le footer mais je ne sais jamais trop quoi mettre dedans -->
+        <footer>Copyright </footer>
+    </div>  
 </body>
 </html>
